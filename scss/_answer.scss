@@ -1,0 +1,37 @@
+.answer {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto 0;
+  padding-bottom: 3rem;
+  z-index: 2;
+  .answer-content {
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      strong {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .answer {
+    height: 100%;
+    min-height: 0;
+    width: 40.5rem;
+    padding-bottom: 0;
+    .answer-content {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      h1 {
+        font-size: 3.5rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

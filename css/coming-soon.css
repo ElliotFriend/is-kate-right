@@ -41,7 +41,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("../img/thot-juice.jpg") #9c27b0 no-repeat center center scroll;
     background-position: cover;
   }
   body video {
@@ -55,7 +55,7 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
+  background-color: #82b1ff;
   opacity: 0.7;
   z-index: 1;
 }
@@ -76,7 +76,7 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(156, 39, 176, 0.8);
   -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
   -webkit-transform-origin: bottom right;
@@ -109,12 +109,13 @@ video {
   padding: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .masthead {
     height: 100%;
     min-height: 0;
     width: 40.5rem;
     padding-bottom: 0;
+    float: left;
   }
   .masthead .masthead-bg {
     min-height: 0;
@@ -135,10 +136,50 @@ video {
   }
 }
 
+.answer {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto 0;
+  padding-bottom: 3rem;
+  z-index: 2;
+}
+
+.answer .answer-content h1 {
+  font-size: 2.5rem;
+}
+
+.answer .answer-content p {
+  font-size: 1.2rem;
+}
+
+.answer .answer-content p strong {
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .answer {
+    height: 100%;
+    min-height: 0;
+    width: 40.5rem;
+    padding-bottom: 0;
+  }
+  .answer .answer-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .answer .answer-content h1 {
+    font-size: 3.5rem;
+  }
+  .answer .answer-content p {
+    font-size: 1.3rem;
+  }
+}
+
 .social-icons {
   position: absolute;
   margin-bottom: 2rem;
   width: 100%;
+  bottom: 1rem;
   z-index: 2;
 }
 
@@ -157,7 +198,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(156, 39, 176, 0.8);
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -195,18 +236,18 @@ video {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #9c27b0;
   }
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #82b1ff;
+  border-color: #82b1ff;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
+  background-color: #4f91ff !important;
+  border-color: #4f91ff !important;
 }
 
 .input {
